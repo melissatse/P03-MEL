@@ -1,15 +1,24 @@
 /*
   STYLE GUIDE STYLING
-
+*/
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 0.8em;
   letter-spacing: 0.8px;
+  margin-left: 8em;
+
 
 }
 
+.heading {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding-left: 3em;
+  margin-bottom: 2em;
+
+}
 
 .color1 {
   background-color:#000000;
@@ -106,7 +115,7 @@ nav a:hover, nav a:focus {
 }
 
 code {
-  background-color: #ddd9c3;
+  background-color: #f4f3ea;
   padding: 0.5rem;
   display: block;
 }
@@ -245,4 +254,136 @@ hr.line2 {
 
 .photo-link:hover {
   opacity: 0.5;
+}
+
+
+/* NAVIGATION STYLING */
+
+
+.button-nav-main {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  background-color: #153e3f;
+  color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  border: solid 1px black;
+  margin: 0;
+
+}
+
+.button-nav-main:hover, .button-nav-main:focus, .view-details:hover, .submit-form:hover ,.reset-form:hover , .subscribe-submit:hover{
+  background-color:#e5db5c;
+  color: #153e3f;
+}
+
+
+/* BUTTON STYLING */
+.button-nav , .submit-form, .reset-form , .view-details ,.subscribe-submit{
+  display: inline-block;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #153e3f;
+  color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border-style: none;
+
+}
+
+.subscribe-submit{
+  padding: 1.1em;
+
+
+}
+
+.project-photo-link{
+  max-width: 25%;
+  height:auto;
+  decoration:none;
+  display: inline-block;
+}
+
+
+.project-photo-link:hover {
+  opacity: 0.5;
+}
+
+.button-out{
+  font-family: Lato;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.5rem;
+  color: #f0eee3;
+  background-color: #f0eee2;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 0.5rem;
+
+}
+
+.button-nav:hover, .button-nav:focus ,  .submit-form:hover, .submit-form:focus, .reset-form:hover, .reset-form:focus .view-details:hover , ..view-details:focus {
+  background-color: #e5db5c;
+  color: black;
+
+}
+
+
+#citations ul a {
+  font-size: 10pt;
+}
+
+.mel-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2em;
+  color: black;
+  margin-top: -1em;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+
+/* CONTAINING ALL TEXT INPUTS IN ONE BOX */
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px
+  border-radius: 3px;
+}
+
+/* SEARCH STYLING */
+
+input[type=text] {
+  margin-bottom: 20px;
+  padding: 1.1em;
+  border: 1px solid #ccc;
+  decoration: none;
+}
+
+input[type=search]:focus  {
+outline: none;
+color:#b4876e;
+decoration:none;
+}
+
+input[type=search] {
+  padding:1em;
+  border: -0.5em solid black;
 }
