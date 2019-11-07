@@ -1,0 +1,248 @@
+/*
+  STYLE GUIDE STYLING
+
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+
+}
+
+
+.color1 {
+  background-color:#000000;
+  font-size: 1.2em;
+  text-align: center;
+  color:white;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+.color2 {
+  background-color: #ffffff;
+  font-size: 1.2em;
+  text-align: center;
+  color:black;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+.color3 {
+  background-color:#8d99ae;
+  font-size: 1.2em;
+  text-align: center;
+  color:white;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+.color4 {
+  background-color:#153e3f;
+  font-size: 1.2em;
+  text-align: center;
+  color:white;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+.color5 {
+  background-color:#e5db5c;
+  font-size: 1.2em;
+  text-align: center;
+  color: black;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+/* END OF COLOR PALETTE */
+
+/*HEADING JOCALE CSS */
+
+.heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+
+}
+
+
+/*STYLEGUIDE + BASIC CSS */
+
+/* SECTION TITLES */
+
+section {
+  max-width:800px;
+}
+
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+* {
+  background: white;
+  box-sizing: border-box;
+}
+
+code {
+  background-color: #ddd9c3;
+  padding: 0.5rem;
+  display: block;
+}
+
+p , li {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
+
+h2 , h3 , h4 , h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #28261a;
+}
+
+
+h6 {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  }
+
+a {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9em;
+}
+
+/* HOVER STATE */
+
+li a:hover {
+  background-color: #153e3f;
+}
+
+/* MAKE THEM ALIGN T LEFT*/
+
+li {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.8;
+
+}
+
+li a {
+  float: left;
+  font-family:"Lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: 400;
+}
+
+/* PERSONA IMAGES */
+
+
+/* CAPTIONS UNDER IMAGES */
+figcaption {
+  font-family:"Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-bottom:2rem;
+
+}
+
+/* END OF STYLEGUIDE/BASIC CSS */
+
+
+
+.label-style {
+  font-family:"Lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color:black;
+}
+
+
+input:focus, textarea:focus, select:focus{
+       outline: none;
+
+   }
+
+
+
+   input[type=submit]:focus , input[type=reset]:focus , input[type=text]:focus  {
+   outline: none;
+   color:black;
+   decoration:none;
+
+   }
+
+
+
+
+/* LINE ELEMENTS CSS */
+
+
+hr.line1 {
+  border-top: 0.1em solid black;
+}
+
+hr.line2 {
+  border-top: 0.1em dashed black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#text-Input{
+  text-decoration: none;
+ }
+
+
+/* IN TEXT LINK STYLING */
+.intext-link , .cite {
+  text-decoration: none;
+  color: #153e3f;
+}
+
+
+/* PHOTO AS A LINK STYLING */
+
+.photo-link:hover {
+  opacity: 0.5;
+}
