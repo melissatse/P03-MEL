@@ -246,3 +246,107 @@ hr.line2 {
 .photo-link:hover {
   opacity: 0.5;
 }
+
+
+/* NAVIGATION STYLING */
+
+
+.button-nav-main {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  background-color: Transparent;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  border: solid 1px black;
+  margin: 0;
+
+}
+
+.button-nav-main:hover, .button-nav-main:focus {
+  background-color: #f0eee3;
+  color: black;
+}
+
+
+/* BUTTON STYLING */
+.button-nav , .submit-style, .reset-style {
+  display: inline-block;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #f0eee3;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border-style: none;
+
+}
+
+
+.button-out{
+  font-family: Lato;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.5rem;
+  color: #f0eee3;
+  background-color: #f0eee2;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 0.5rem;
+
+}
+
+.button-nav:hover, .button-nav:focus ,  .submit-style:hover, .submit-style:focus, .reset-style:hover, .reset-style:focus {
+  background-color: #b4876e;
+  color:white;
+
+}
+
+
+#citations ul a {
+  font-size: 10pt;
+}
+
+
+
+
+/* CONTAINING ALL TEXT INPUTS IN ONE BOX */
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px
+  border-radius: 3px;
+}
+
+/* SEARCH STYLING */
+
+input[type=text] {
+  margin-bottom: 20px;
+  padding: 1.1em;
+  border: 1px solid #ccc;
+  decoration: none;
+}
+
+input[type=search]:focus  {
+outline: none;
+color:#b4876e;
+decoration:none;
+}
+
+input[type=search] {
+  padding:1em;
+  border: -0.5em solid black;
+}
