@@ -15,8 +15,8 @@ body {
 .heading {
   display: block;
   margin-bottom: 0.5rem;
-  padding-left: 3em;
-  margin-bottom: 2em;
+  margin-left: -60em;
+  margin-bottom: 4em;
 
 }
 
@@ -308,6 +308,14 @@ hr.line2 {
 
 .project-photo-link{
   max-width: 25%;
+  height:auto;
+  decoration:none;
+  display: inline-block;
+}
+
+
+.project-photo{
+  max-width: 75%;
   height:auto;
   decoration:none;
   display: inline-block;
