@@ -1,397 +1,229 @@
-/*
-  STYLE GUIDE STYLING
-*/
+.navbar {
+    padding:2rem;
+    font-size:1rem;
+
+}
+
+.navbar a{
+    letter-spacing:0.05rem;
+    text-decoration:none;
+    color:white;
+}
+
 
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  letter-spacing: 0.8px;
-  margin-left: 8em;
-
-
+    background-color:black;
 }
 
-.heading {
-  display: block;
-  margin-bottom: 0.5rem;
-  margin-left: -60em;
-  margin-bottom: 4em;
+/* text */
 
+h1 {
+    font-family: Circular;
+    letter-spacing: 0.6rem;
+    padding-left:0.5rem;
 }
 
-.color1 {
-  background-color:#000000;
-  font-size: 1.2em;
-  text-align: center;
-  color:white;
-  padding: 1.2em;
-  max-width: 500px;
-}
-
-.color2 {
-  background-color: #ffffff;
-  font-size: 1.2em;
-  text-align: center;
-  color:black;
-  padding: 1.2em;
-  max-width: 500px;
-}
-
-.color3 {
-  background-color:#8d99ae;
-  font-size: 1.2em;
-  text-align: center;
-  color:white;
-  padding: 1.2em;
-  max-width: 500px;
-}
-
-.color4 {
-  background-color:#153e3f;
-  font-size: 1.2em;
-  text-align: center;
-  color:white;
-  padding: 1.2em;
-  max-width: 500px;
-}
-
-.color5 {
-  background-color:#e5db5c;
-  font-size: 1.2em;
-  text-align: center;
-  color: black;
-  padding: 1.2em;
-  max-width: 500px;
-}
-
-/* END OF COLOR PALETTE */
-
-/*HEADING JOCALE CSS */
-
-.heading {
-  display: block;
-  text-align: center;
-  margin-bottom: 0.5rem;
-
-}
-
-
-/*STYLEGUIDE + BASIC CSS */
-
-/* SECTION TITLES */
-
-section {
-  max-width:800px;
-}
-
-
-.element {
-  padding-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: solid;
-  border-top-color: black;
+h2 {
+    font-family: Circular;
+    letter-spacing: 0.6rem;
+    /* padding-top:3rem; */
+    padding-left:0.5rem;
 }
 
 h3 {
-  margin-top: 1rem;
+    font-family: Circular;
+    letter-spacing: 0.1rem;
+    padding-left:0.5rem;
 }
 
-h4 {
-  margin-bottom: 0.25rem;
+a{
+    font-family: Circular;
+    letter-spacing: 0.1rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    color: black;
+    transition-property: color;
+    transition-duration: 0.5s;
 }
 
-p {
-  margin-top: 0;
+a:hover {
+    color:rgb(255, 195, 66);
 }
 
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-
-* {
-  background: white;
-  box-sizing: border-box;
-}
-
-code {
-  background-color: #f4f3ea;
-  padding: 0.5rem;
-  display: block;
-}
-
-p , li {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
-  font-weight: 300;
-  letter-spacing: 0.08em;
-}
-
-
-h2 , h3 , h4 , h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #28261a;
-}
-
-
-h6 {
-  letter-spacing: 0.1rem;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  }
-
-a {
-  font-family: 'Lato', sans-serif;
-  font-size: 0.9em;
-}
-
-/* HOVER STATE */
-
-li a:hover {
-  background-color: #153e3f;
-}
-
-/* MAKE THEM ALIGN T LEFT*/
-
-li {
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.8rem;
-  letter-spacing: 0.8;
+p{
+    font-family: CircularRegular;
+    letter-spacing: 0.1rem;
 
 }
 
-li a {
-  float: left;
-  font-family:"Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  letter-spacing: 0.8;
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
+img:hover {
+    opacity:0.5;
+}
+
+img {
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+/* HEADINGS */
+.Headings {
+    padding-bottom:3rem;
+}
+
+/* BODY COPY */
+.Paragraphs p{
+    padding-left:0.5rem;
+    max-width:50%;
+}
+
+.Paragraphs{
+    padding-bottom: 3rem;
+}
+
+.Links p{
+    padding-left:0.5rem;
+}
+
+.Links h3 {
+    color: rgb(255, 195, 66);
+}
+
+.parkeasy img{
+    max-width:100%;
+}
+.projectDesc {
+    color:white;
+}
+.lumenwire img{
+    max-width:100%;
+}
+
+.projects{
+    width:82%;
+    padding-top:10rem;
+    padding-left:13rem;
+}
+
+.parkeasy_projectDesc {
+
+    line-height:0.2rem;
+    display:block;
+    float:right;
+    text-align:right;
+    font-size:0.75rem;
+    color:white;
+    position:relative;
+    right:7%;
+}
+
+.lumen_projectDesc {
+    /* line-height:0.2rem;
+    text-align:right;
+    font-size:0.75rem;
+    color:white;
+    position:absolute;
+    left:65.5%;
+    top:69%; */
+
+    line-height:0.2rem;
+    display: block;
+    float:right;
+    text-align:right;
+    font-size:0.75rem;
+    color:white;
+    position:relative;
+    right:7%;
 }
 
 
-.italic{
-  font-style: italic;
+@media (max-width:1300px) {
+
+    .parkeasy_projectDesc{
+        right:7%;
+    }
+
+    .lumen_projectDesc{
+        right:7%;
+    }
 }
 
-.bold{
-  font-weight: 400;
+@media (max-width:1054px) {
+
+    .projects{
+        flex-direction:column;
+    }
+
+    .parkeasy{
+        padding-bottom:4rem;
+    }
+
+    .parkeasy_projectDesc {
+        right:5%;
+    }
+
+    .lumen_projectDesc {
+        right:5%;
+    }
 }
 
-/* PERSONA IMAGES */
+@media (max-width:865px) {
+    .projects {
+        padding-left:5rem;
+    }
 
+    .parkeasy_projectDesc {
+        right:6%;
+    }
 
-/* CAPTIONS UNDER IMAGES */
-figcaption {
-  font-family:"Lato", sans-serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.8em;
-  margin-bottom:2rem;
-
-}
-
-/* END OF STYLEGUIDE/BASIC CSS */
-
-
-
-.label-style {
-  font-family:"Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  color:black;
-}
-
-
-input:focus, textarea:focus, select:focus{
-       outline: none;
-
-   }
-
-
-
-   input[type=submit]:focus , input[type=reset]:focus , input[type=text]:focus  {
-   outline: none;
-   color:black;
-   decoration:none;
-
-   }
-
-
-
-
-/* LINE ELEMENTS CSS */
-
-
-hr.line1 {
-  border-top: 0.1em solid black;
-}
-
-hr.line2 {
-  border-top: 0.1em dashed black;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-#text-Input{
-  text-decoration: none;
- }
-
-
-/* IN TEXT LINK STYLING */
-.intext-link , .cite {
-  text-decoration: none;
-  color: #153e3f;
-}
-
-
-/* PHOTO AS A LINK STYLING */
-
-.photo-link:hover {
-  opacity: 0.5;
-}
-
-
-/* NAVIGATION STYLING */
-
-
-.button-nav-main {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 0.7rem;
-  padding: 0.5rem;
-  background-color: #153e3f;
-  color: white;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  border: solid 1px black;
-  margin: 0;
-
-}
-
-.button-nav-main:hover, .button-nav-main:focus, .view-details:hover, .submit-form:hover ,.reset-form:hover , .subscribe-submit:hover{
-  background-color:#e5db5c;
-  color: #153e3f;
-}
-
-
-/* BUTTON STYLING */
-.button-nav , .submit-form, .reset-form , .view-details ,.subscribe-submit{
-  display: inline-block;
-  padding: 0.5em 1em 0.5em 1em;
-  background-color: #153e3f;
-  color: white;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 0.9em;
-  border-style: none;
-
-}
-
-.subscribe-submit{
-  padding: 1.1em;
-
-
-}
-
-.project-photo-link{
-  max-width: 25%;
-  height:auto;
-  decoration:none;
-  display: inline-block;
-}
-
-
-.project-photo{
-  max-width: 75%;
-  height:auto;
-  decoration:none;
-  display: inline-block;
-}
-
-
-.project-photo-link:hover {
-  opacity: 0.5;
-}
-
-.button-out{
-  font-family: Lato;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 0.7rem;
-  display: inline-block;
-  padding: 1em;
-  margin-top: 0.5rem;
-  color: #f0eee3;
-  background-color: #f0eee2;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  border-radius: 0.5rem;
-
-}
-
-.button-nav:hover, .button-nav:focus ,  .submit-form:hover, .submit-form:focus, .reset-form:hover, .reset-form:focus .view-details:hover , ..view-details:focus {
-  background-color: #e5db5c;
-  color: black;
+    .lumen_projectDesc {
+        right:6%;
+    }
 
 }
 
 
-#citations ul a {
-  font-size: 10pt;
+@media (max-width:850px) {
+    .navbar {
+        font-size:1.5rem;
+    }
 }
 
-.mel-title {
-  font-family: 'DM Serif Display', serif;
-  font-size: 2em;
-  color: black;
-  margin-top: -1em;
-  margin-bottom: 0.5em;
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
+@media (max-width:595px) {
 
+    .projects {
+        padding-left:0rem;
+    }
+    .parkeasy_projectDesc {
+        font-size:1rem;
+        right:6%;
+    }
 
+    .lumen_projectDesc {
+        right:6%;
+        font-size:1rem;
+    }
+
+   .navbar {
+    flex-direction:column;
+    text-align:center;
+    font-size:1.5rem;
+}
 }
 
+@media (max-width:375px) {
 
-/* CONTAINING ALL TEXT INPUTS IN ONE BOX */
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px
-  border-radius: 3px;
-}
+    .projects {
+        padding-left:2rem;
+        max-width:150%;
+    }
+    .parkeasy_projectDesc {
+        font-size:0.7rem;
+        right:12%;
+    }
 
-/* SEARCH STYLING */
+    .lumen_projectDesc {
+        right:12%;
+        font-size:0.7rem;
+    }
 
-input[type=text] {
-  margin-bottom: 20px;
-  padding: 1.1em;
-  border: 1px solid #ccc;
-  decoration: none;
-}
-
-input[type=search]:focus  {
-outline: none;
-color:#b4876e;
-decoration:none;
-}
-
-input[type=search] {
-  padding:1em;
-  border: -0.5em solid black;
 }
