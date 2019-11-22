@@ -1,0 +1,79 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* parkeasy */
+.overview{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.overview_reflection{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parkeasy_research {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.parkeasy_problem {
+    flex-wrap:wrap;
+}
+
+.body{
+    flex-direction:column;
+}
+
+.overview_body h2{
+    display:block;
+}
+
+/* .bio {
+    display:flex;
+    justify-content: space-between;
+} */
+
+/*parkeasy FEATURES */
+.feature_1{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.feature_2{
+    display:flex;
+    justify-content:flex-start;
+}
+
+
+.feature_visuals{
+    display:flex;
+    justify-content:flex-start;
+}
+
+/* lumen */
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lumen_overview {
+    display: flex;
+    justify-content:space-between;
+}
+
+.lumen_details{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}

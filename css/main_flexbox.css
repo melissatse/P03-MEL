@@ -1,0 +1,14 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
