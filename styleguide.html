@@ -3,335 +3,190 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Melissa Tse.</title>
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/fonts.css" rel="stylesheet">
-  <link href="css/website-styling.css" rel="stylesheet">
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Style Guide </title>
 
-  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
+	<link rel="stylesheet" href="css/styleguide.css">
+	<link rel="stylesheet" href="css/fonts.css">
 
 
 </head>
 
 <body>
-
-  <header>
-
-    <div class="heading">
-      <a href="https://www.google.com/" class="mel-title">Mel P03 Style Guide</a>
-    </div>
-
-  </header>
-
-  <!-- START OF NAV BAR -->
-
-  <nav>
-    <a class="button-nav-main" href="styleguide.html">MAIN</a>
-    <a class="button-nav-main" href="#interactive_elements">INTERACTIVE ELEMENTS</a>
-    <a class="button-nav-main" href="#text_elements">TEXT ELEMENTS</a>
-    <a class="button-nav-main" href="#combined_elements">COMBINED ELEMENTS</a>
-    <a class="button-nav-main" href="#citations">CITATIONS</a>
-    <a class="button-nav-main" href="works.html">WORKS TEMPLATE</a>
-
-  </nav>
-
-  <section id="branding">
-    <h2 class="id-title">About Mel.</h2>
-
-    <section class="element">
-      <div class="branding-info">
-        <h3> Who Am I?</h3>
-        <p>My name is Melissa and I am a fourth year School of Interactive Art and Technology student at Simon Fraser University. Graphic design has always been an interest of mine as I was always fascinated by how visuals enhanced the way people communicate. After entering the program, I immediately fell in love with user experience (UX) as well as user interface (UI) design. Aside from being able to strengthen communication through design, UX/UI allows me to challenge myself with the complexity of user testing in design. Following my interest, my goal is to explore how design could improve everyday life in hopes of creating my own application one day.
-</p>
-
-
-  </section>
-</section>
-
-  <section class="element">
-    <h3> Fonts</h3>
-
-    <h4> Title & Subtitle Choice</h4>
-
-    <p class="lato-font"> This is the Lato Font for project titles. </p>
-
-    <h4> Subtext/Description Choice</h4>
-
-    <p class="price">This is the Lato Font for project descriptions.</p>
-
-
-    <h3> Color Palette</h3>
-    <p>Various shades within this color palette will be used in my portfolio.</p>
-    <p class="color1">#000000 (black)</p>
-    <p class="color2">#fffff (white)</p>
-    <p class="color4">#153e3f (olive)</p>
-    <p class="color5">#e5db5c (sun)</p>
-
-  </section>
-
-
-  <!-- INTERACTIVE ELEMENTS SECTION // -->
-  <section id="interactive_elements">
-    <h2 class="id-title">Interactive Elements</h2>
-
-
-    <section class="element">
-      <h3>In-text link</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.intext-link</p>
-
-      <h4>Sample code:</h4>
-      <code> &lt;a href = "css/main.css" class ="in-text-link"&gt; this is an in-text link &lt;/a&gt;</code>
-
-
-      <h4>Rendered element:</h4>
-      <a href="css/main.css" class="intext-link"> this is an in-text link </a>
-
-
-    </section>
-  </section>
-
-
-    <!-- DEFAULT BUTTON SECTION -->
-    <section class="element">
-
-      <h3>Navigation Link</h3>
-
-
-      <h4>CSS selector:</h4>
-      <p>.view-details</p>
-
-      <h4>Sample code:</h4>
-      <code> &lt;a class="view-details" href="https://www.google.com/">Detailst&lt;/a&gt;/code&gt;
-      </code>
-
-
-      <h4>Rendered element:</h4>
-      <a class="view-details" href="https://www.google.com/">Details</a>
-
-
-    </section>
-
-
-    <section class="element">
-      <h3>Submit/Reset Buttons</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.submit-style</p>
-      <p>.reset-style</p>
-
-      <h4>Sample code:</h4>
-
-      <code>&lt;input type = "submit" class ="submit-style"&gt;</code>
-      <code>&lt;input type = "reset" class ="reset-style"&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <a class="submit-form" href="https://www.google.com/">Submit</a>
-      <a class="reset-form" href="https://www.google.com/">Reset</a>
-
-
-
-
-    </section>
-
-
-    <section class="element">
-      <h3>Text Input Field with Label</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.search-style</p>
-
-      <h4>Sample code:</h4>
-      <code>
-        &lt;label for = "first-name" class="label-style"&gt; Enter your first Name&lt;/label&gt;
-      </code>
-      <code>
-        &lt;input id="submit-search" type="text" placeholder="Enter your email" class="submit-search"&gt;
-        &lt;a class="subscribe-submit" href=""&gt;SUBMIT&lt;/a&gt;
-      </code>
-
-      <h4> Rendered element:</h4>
-
-      <div class="subscribe">
-
-        <input id="submit-search" type="text" placeholder="Enter your email" class="submit-search">
-        <a class="subscribe-submit" href="">SUBMIT</a>
-
-      </div>
-    </section>
-
-
-    <section class="element">
-      <h3>Radio Button with Label</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.radio-input1</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;label for = "radio-input1"> one size&lt;/label&gt;</code>
-      <code>&lt;input id = "radio-input1" type = "radio" class="radio-style"&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <label for="radio-input1"> one size</label>
-      <input id="radio-input1" type="radio" class="radio-style">
-
-    </section>
-
-
-    <section class="element">
-      <h3>Image as a Link</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.p-item photo-link</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;a href = "https://www.google.com/"&gt;&lt;img src="images/projects/sharethemeal-1.jpg" alt= "app-picture" class ="photo-link"&gt;&lt;/a&gt;</code>
-
-      <h4>Rendered element:</h4>
-
-      <a href="https://www.google.com/"><img class="project-photo-link" src="images/mockup1.png" alt="app-picture"></a>
-
-    </section>
-    <!-- INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h2 class="id-title">Text Elements</h2>
-
-      <section class="element">
-        <h3 class="id-title">Headings</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.button-landing</p>
-        <p>.page-title</p>
-        <p>.project-description</p>
-
-        <h4>Sample code:</h4>
-
-        <code>&lt;h2 class="page-title"&gt;Heading 3 - Page Titles&lt;/h2&gt;</code>
-        <code>&lt;h3 class="product-title"&gt;Heading 4 - Product Title&lt;/h3&gt;</code>
-        <code>&lt;h4 class ="object-description"&gt;Heading 5 - Product Description&lt;/h4&gt;</code>
-
-
-        <h4>Rendered element:</h4>
-
-        <h2 class="page-title">Heading 3 - Page Titles</h2>
-
-        <h3 class="product-title">Heading 4 - Project Titles</h3>
-
-        <p class="project-description">
-          Heading 5 - Project Description</p>
-
-      </section>
-
-      <section class="element">
-        <h3>Paragraphs</h3>
-
-        <h4>CSS selector:</h4>
-        <p>p</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;p&gt; this is a paragraph. &lt;/p&gt;</code>
-
-
-        <h4>Rendered element:</h4>
-        <p> this is a paragraph. </p>
-
-
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3>
-        <h4>CSS selector:</h4>
-        <p>li</p>
-        <p>ol</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;/ol&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;/ol&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <ol>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ol>
-      </section>
-
-    </section>
-    <!-- TEXT ELEMENTS SECTION -->
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2 class="id-title">Combined Elements</h2>
-
-      <section class="element">
-        <h3>Main Navigation</h3>
-        <h4>CSS selector:</h4>
-        <p>.button-nav-maint</p>
-
-        <h4>Sample code:</h4>
-
-        <code>&lt;nav&gt;</code>
-        <code>&lt;a class="button-nav-main" href="#"&gt;ABOUT&lt;/a&gt;</code>
-        <code>&lt;a class="button-nav-main" href="#"&gt;WORKS&lt;/a&gt;</code>
-        <code>&lt;a class="button-nav-main" href="#"&gt;CONTACT&lt;/a&gt;</code>
-        <code>&lt;/nav&gt;</code>
-
-
-        <h4>Rendered element:</h4>
-
-        <br>
-
-        <nav>
-          <a class="button-nav-main" href="#">ABOUT</a>
-          <a class="button-nav-main" href="#">WORKS</a>
-          <a class="button-nav-main" href="#">CONTACT</a>
-
+	<header>
+		<h1>Melissa's Portfolio Style Guide</h1>
+
+		<nav>
+            <a href="#citations">Citations</a>
+            <a href="index.html" target="blank">Portfolio</a>
         </nav>
 
-        <br>
+        <hr style="border: 0.08rem solid rgb(219,219,219);"/>
+    </header>
 
-        <p> For full style guide for <a href="works.html" class="intext-link"> works </a>, please visit pages from the navigation bar above.<p>
+    	<!-- COLOURS -->
+	<section id="Colours">
+                <h2><u>Colours</u></h2>
+			<div class = "swatches">
 
-      </section>
-    </section>
+				<div class = "colour1">
+                <br>
+                <br>
+                <br>
+                </div>
 
-    <!-- START OF CITATION SECTION -->
+				<div class = "colour2">
+                <br>
+                <br>
+                <br>
+                </div>
 
-    <section id="citations">
-      <h2 class="id-title">Citations</h2>
+				<div class = "colour3">
+                <br>
+                <br>
+                <br>
+            </div>
+            </div>
+        </section>
 
-      <section class="element">
-        <h3>Fonts</h3>
+        <div class="swatch_labels">
+            <p>rgb(0,0,0)</p>
+            <p>rgb(219,219,219)</p>
+            <p>rgb(255, 195, 66)</p>
+        </div>
 
-        <p>Dziedzic,L. (2010). Lato.<span class="italic">Google Fonts. </span> Retrieved from <a href="https://fonts.google.com/specimen/Lato" class="intext-link"> https://fonts.google.com/specimen/Lato </a> </p>
+        <section id="Typography">
+            <div class="Headings">
+            <h2><u>Typography</u></h2>
 
-        <p>Foundry, C. (n,d.). DM Serif Display.<span class="italic">Google Fonts. </span> Retrieved from <a href="https://fonts.google.com/specimen/DM+Serif+Display" class="intext-link"> https://fonts.google.com/specimen/DM+Serif+Display </a> </p>
+            <h2>Heading 1</h2>
+            <h3>Heading 2</h3>
+            </div>
 
-        <p>Roberto, C. (n,d.). Roboto.<span class="italic">Google Fonts. </span> Retrieved from <a href="https://fonts.google.com/specimen/Roboto" class="intext-link"> https://fonts.google.com/specimen/Roboto </a> </p>
+            <div class="Paragraphs">
+                    <h2><u>Body Copy</u></h2>
 
-        <p>w3school. (n,d.). The Worlds Largest Web Developer Site. <span class="italic">w3schools. </span>Retrieved from <a href="https://www.w3schools.com/default.asp" class="intext-link"> https://www.w3schools.com/default.asp </a> </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
 
-        <p>SFU SIAT. (2019). Code from IAT 339 class & lab. <span class="italic">SFU. </span> Retrieved from <a href="http://www.sfu.ca/siat.html" class="intext-link"> http://www.sfu.ca/siat.html </a> </p>
+            <div class="Lists">
+                <h2><u>Lists</u></h2>
+                <ul>
+                    <li><span class="bold-text">Role:
+                        </span>Art Direction, Branding, Visual Design</li>
+
+                         <li><span class="bold-text">Tools:
+                                </span>Illustrator, InDesign, Photoshop, After Effects</li>
+
+                        <li><span class="bold-text">Client: </span>Lumen</li>
+
+                        <li><span class="bold-text">Timeframe: </span>3 Months</li>
+                </ul>
+
+        <pre>
+                <code>&lt;ul&gt;
+&lt;li&gt;&lt;span class="bold_text"&gt;Role&lt;/span&gt; Art Direction, Branding, Visual Design&lt;/li&gt;
+&lt;li&gt;&lt;span class="bold_text"&gt;Tools:&lt;/span&gt; Illustrator, InDesign, Photoshop, After Effects&lt;/li&gt;
+&lt;li&gt;&lt;span class="bold_text"&gt;Client:&lt;/span&gt; lumenwire&lt;/li&gt;
+&lt;li&gt;&lt;span class="bold_text"&gt;Timeframe:&lt;/span&gt; 3 Months&lt;/li&gt;
+&lt;/ul&gt;
+                </code>
+        </pre>
 
 
-      </section>
+            </div>
 
-    </section>
-</body>
+        </section>
 
-</html>
+        <section id="Clickable_Elements">
+            <div class="Links">
+                <h2><u>Links</u></h2>
+
+                <h3>Link</h3>
+                <a href="https://www.google.com/" target="blank">this is a link.</a>
+
+                <code>&lt;a href="Link URL" target="blank"&gt;this is a link&lt;/a&gt;</code>
+
+
+                <h3>In-text Link</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<a href="https://www.google.com//" target="blank">this is a link.</a></p>
+
+                <pre>
+                <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+&lt;a href="Link URL" target="blank"&gt;This is a link&lt;/a&gt;&lt;/p&gt;</code>
+                </pre>
+
+
+                <h3>Navigation Links</h3>
+                <nav class="navbar">
+                    <a href="index.html">Melissa Tse</a>
+                    <a href="about.html">about</a>
+                </nav>
+               <pre>
+                <code>&lt;nav class="navbar"&gt;
+&lt;a href="index.html" target="blank"&gt;Melissa Tse&lt;/a&gt;
+&lt;a href="about.html" target="blank"&gt;about&lt;/a&gt;
+&lt;nav class="navbar"&gt;</code>
+</pre>
+
+                <h3>Image as a link</h3>
+                <figure>
+                        <a href="lumen.html">
+                        <img src="img/lumenProject.jpg" alt="lumen thumbnail">
+                        </a>
+                </figure>
+
+                <pre>
+                <code>&lt;figure&gt;
+&lt;a href="lumen.html"&gt;
+&lt;img src="location of image/image name" alt="description:&gt;
+&lt;/figure&gt;</code>
+</pre>
+
+                </div>
+
+
+        </section>
+
+        <section id="content">
+                <h2><u>Content</u></h2>
+            <div class="project">
+            <h3>Bio</h3>
+
+            <p>I am currently a student at Simon Fraser University while searching for my next design internship. When I am not infront of a compauter designing, I am on the court playing volleyball or in the kitchen cutting cheese.</p>
+            <p>Want to collaborate? Say hi through <a href="mailto:melissawtse@gmail.com?Subject=Hi" target="_top">email</a>, or connect with me on <a href="https://www.instagram.com/melhoon" target="_blank">Instagram</a> &#9786;</p>
+
+            <p>Here's my <a href="styleguide.html" target="blank">styleguide!</a></p>
+        </div>
+
+    <div class="project">
+        <h3>Parkeasy</h3>
+
+        <ul>
+            <li>Role: Research, User Interface, Visual Design</li>
+            <li>Tools: Sketch, Illustrator, Photoshop</li>
+            <li>Team: Christina Hoang, Janet Lau</li>
+            <li>Client: Senior interface design course</li>
+            <li>Timeframe: 6 Weeks</li>
+        </ul>
+</div>
+
+        <section id="citations">
+            <div class="sources">
+            <h3><u>Citations</u></h3>
+
+            <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="blank">Flexbox</a>Used as a guide for flex-direction and justify-content for grids</p>
+
+            <p><a href="https://vimeo.com/user62174760" target="blank">Cyclet clips</a>from a group member's Vimeo</p>
+
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="blank">Positioning</a>for the images and text on the index page</p>
+
+            <p><a href="https://www.w3schools.com/css/css_float.asp" target="blank">Float property</a>for the images and text on the index page</p>
+
+            <p><a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp" target="blank">Z-index</a>for the projects where the images appear behind the titles
+
+        </div>
+        </section>
+    </body>
+    </html>
