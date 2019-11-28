@@ -1,74 +1,68 @@
 *, *::after, *::before {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 /* PARK EASY */
-.overview{
-    display: flex;
-    justify-content: flex-start;
+.overview {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.overview_reflection{
-    display: flex;
-    justify-content: flex-start;
+.overview_reflection {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .parkeasy_research {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .parkeasy_problem {
-    flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.body{
-    flex-direction:column;
+.body {
+  flex-direction: column;
 }
 
-.overview_body h2{
-    display:block;
+.overview_body h2 {
+  display: block;
 }
 
-
-.feature_1{
-    display:flex;
-    justify-content:flex-start;
+.feature_1 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.feature_2{
-    display:flex;
-    justify-content:flex-start;
+.feature_2 {
+  display: flex;
+  justify-content: flex-start;
 }
 
-
-.feature_visuals{
-    display:flex;
-    justify-content:flex-start;
+.feature_visuals {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* LUMEN */
-
 .details {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .lumen_overview {
-    display: flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.lumen_details{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
+.lumen_details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

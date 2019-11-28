@@ -1,231 +1,222 @@
 /* flex */
-
 *, *::after, *::before {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
+body {
   margin-left: 6em;
+  background-color: black;
+  color: white;
 }
 
 nav {
-    padding-bottom:1rem;
+  padding-bottom: 1rem;
 }
 
-hr{
-    margin-bottom: 2rem;
+hr {
+  margin-bottom: 2rem;
 }
-
 
 /* text */
-
 h1 {
-    font-family: Circular;
-    letter-spacing: 0.4rem;
-    padding-left:0.5rem;
+  font-family: Circular;
+  letter-spacing: 0.4rem;
+  padding-left: 0.5rem;
 }
 
 h2 {
-    font-family: Circular;
-    letter-spacing: 0.3rem;
-    padding-left:0.5rem;
+  font-family: Circular;
+  letter-spacing: 0.3rem;
 }
 
 h3 {
-    font-family: Circular;
-    letter-spacing: 0.1rem;
+  font-family: Circular;
+  letter-spacing: 0.1rem;
 }
 
-h4{
-    font-family:Circular;
-    letter-spacing:0.1rem;
+h4 {
+  font-family: Circular;
+  letter-spacing: 0.1rem;
 }
 
-a{
-    font-family: Circular;
-    letter-spacing: 0.1rem;
-    padding-left:0.5rem;
-    padding-right:0.5rem;
-    color: black;
-    transition-property: color;
-    transition-duration: 0.5s;
+a {
+  font-family: Circular;
+  letter-spacing: 0.1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #f6c55b;
+  transition-property: color;
+  transition-duration: 0.5s;
 }
 
 a:hover {
-    color:rgb(255, 195, 66);
+  color: white;
 }
 
-p{
-    font-family: CircularRegular;
-    letter-spacing: 0.1rem;
-
-
+p {
+  font-family: CircularRegular;
+  letter-spacing: 0.1rem;
 }
 
 li {
-    font-family: CircularRegular;
-    list-style:none;
-    line-height:2rem;
-    letter-spacing: 0.05rem;
-    flex-wrap:wrap;
+  font-family: CircularRegular;
+  list-style: none;
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+  flex-wrap: wrap;
 }
 
-
 .bold_text {
-    font-family:Circular;
+  font-family: Circular;
+}
+
+.bold_description h2 {
+  max-width: 85%;
+  color: #5abedd;
 }
 
 .Lists {
-    padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
 
-.Lists code{
-    background-color: lightgrey;
-    padding: 0.5rem;
-    display: block;
-    display:flex;
-    flex-wrap:wrap;
+code {
+  background-color: #e2e2e2;
+  padding: 0.5rem;
+  margin-right: 5em;
+  display: block;
+  color: black;
+  word-wrap: break-word;
 }
 
 /* HEADINGS */
 .Headings {
-    padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
 
 /* COLOUR SWATCHES */
-
 .swatches {
-    display:flex;
+  display: flex;
 }
 
 .swatch_labels {
-    display:flex;
-    font-size:0.8rem;
-    padding-bottom:3rem;
-}
-.colour1{
-    margin-left:1rem;
-    height:50px;
-    width:50px;
-    background-color:black;
-    margin-right:5rem;
+  display: flex;
+  font-size: 0.8rem;
+  padding-bottom: 3rem;
 }
 
-.colour1 p{
-    color:black;
-    font-family: CircularRegular;
-    letter-spacing: 0.1rem;
-    font-size:0.8rem;
-    margin-left:-0.7rem;
+.colour1 {
+  margin-left: 1rem;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin-right: 5rem;
+}
+
+.colour1 p {
+  color: black;
+  font-family: CircularRegular;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  margin-left: -0.7rem;
 }
 
 .colour2 {
-    margin-left:1.5rem;
-    height:50px;
-    width:50px;
-    background-color:rgb(219,219,219);
-    margin-right:5rem;
+  margin-left: 1.5rem;
+  height: 50px;
+  width: 50px;
+  /* BLUE */
+  background-color: #5abedd;
+  margin-right: 5rem;
 }
-.colour2 p{
-    color:black;
-    font-family: CircularRegular;
-    letter-spacing: 0.1rem;
-    font-size:0.8rem;
+
+.colour2 p {
+  color: black;
+  font-family: CircularRegular;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
 }
 
 .colour3 {
-    margin-left:1.5rem;
-    height:50px;
-    width:50px;
-    background-color:rgb(255, 195, 66);
-    margin-right:5rem;
+  margin-left: 1.5rem;
+  height: 50px;
+  width: 50px;
+  /* YELLOW */
+  background-color: #f6c55b;
+  margin-right: 5rem;
 }
-.colour3 p{
-    color:black;
-    font-family: CircularRegular;
-    letter-spacing: 0.1rem;
-    font-size:0.8rem;
+
+.colour3 p {
+  color: black;
+  font-family: CircularRegular;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
 }
 
 .swatch_labels p {
-    padding-right:3rem;
-    position:relative;
+  padding-right: 3rem;
+  position: relative;
 }
-
-
 
 /* BODY COPY */
-.Paragraphs p{
-    padding-left:0.5rem;
-    max-width:50%;
+.Paragraphs p {
+  padding-left: 0.5rem;
+  max-width: 50%;
 }
 
-.Paragraphs{
-    padding-bottom: 3rem;
+.Paragraphs {
+  padding-bottom: 3rem;
 }
 
-.Links p{
-    padding-left:0.5rem;
+.Links p {
+  padding-left: 0.5rem;
 }
 
 .Links h3 {
-    color: rgb(255, 195, 66);
+  color: rgb(255, 195, 66);
 }
 
 /* LINKS */
-
-.Links a{
-    text-decoration:none;
+.Links a {
+  text-decoration: none;
 }
 
-.Links h3{
-    padding-top:1rem;
-    text-decoration:underline;
+.Links h3 {
+  padding-top: 1rem;
+  text-decoration: underline;
 }
 
-.navbar a{
-    text-decoration:none;
+.navbar a {
+  text-decoration: none;
 }
 
-.Links code{
-    background-color: lightgrey;
-    padding: 0.5rem;
-    display: block;
-    display:flex;
-    flex-wrap:wrap;
-    /* padding-left:0.5rem; */
-}
-
-.Links img{
-    max-width:30%;
-    transition-property: all;
-    transition-duration: 0.5s;
+.Links img {
+  max-width: 30%;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .Links img:hover {
-    opacity:0.5;
+  opacity: 0.5;
 }
 
 .Links {
-    padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
 
 /*CONTENT*/
-
-.project h3{
-    color: rgb(255, 195, 66);
-    text-decoration:underline;
-
+.project h3 {
+  color: rgb(255, 195, 66);
+  text-decoration: underline;
 }
 
 .project {
-    max-width:80%;
+  max-width: 80%;
 }
 
-.project img{
-    max-width:80%;
+.project img {
+  max-width: 80%;
 }
 
-.sources a{
-    font-weight:bold;
+.sources a {
+  font-weight: bold;
 }

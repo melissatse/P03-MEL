@@ -1,26 +1,22 @@
 /* CITING FONT AND LINKING */
-
-@font-face{
-    font-family: 'Circular';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/Circular.otf');
-    src: url('../fonts/Circular.otf') format('embedded-opentype'),
-         url('../fonts/Circular.otf') format('woff2'),
-         url('../fonts/Circular.otf') format('woff'),
-         url('../fonts/Circular.otf') format('truetype');
+@font-face {
+  font-family: 'Circular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Circular.otf');
+  src: url('../fonts/Circular.otf') format('embedded-opentype'),
+    url('../fonts/Circular.otf') format('woff2'),
+    url('../fonts/Circular.otf') format('woff'),
+    url('../fonts/Circular.otf') format('truetype');
 }
 
-
-@font-face{
-    font-family: 'CircularRegular';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/CircularRegular.otf');
-    src: url('../fonts/CircularRegular.otf') format('embedded-opentype'),
-         url('../fonts/CircularRegular.otf') format('woff2'),
-         url('../fonts/CircularRegular.otf') format('woff'),
-         url('../fonts/CircularRegular.otf') format('truetype');
+@font-face {
+  font-family: 'CircularRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/CircularRegular.otf');
+  src: url('../fonts/CircularRegular.otf') format('embedded-opentype'),
+    url('../fonts/CircularRegular.otf') format('woff2'),
+    url('../fonts/CircularRegular.otf') format('woff'),
+    url('../fonts/CircularRegular.otf') format('truetype');
 }
