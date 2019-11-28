@@ -8,7 +8,7 @@
 }
 
 
-/* parkeasy */
+/* PARK EASY */
 .overview{
     display: flex;
     justify-content: flex-start;
@@ -37,12 +37,7 @@
     display:block;
 }
 
-/* .bio {
-    display:flex;
-    justify-content: space-between;
-} */
 
-/*parkeasy FEATURES */
 .feature_1{
     display:flex;
     justify-content:flex-start;
@@ -59,7 +54,7 @@
     justify-content:flex-start;
 }
 
-/* lumen */
+/* LUMEN */
 
 .details {
     display: flex;

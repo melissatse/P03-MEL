@@ -1,3 +1,6 @@
+
+/* NAV BAR */
+
 .navbar {
     padding:2rem;
     font-size:1rem;
@@ -15,7 +18,7 @@ body {
     background-color:black;
 }
 
-/* text */
+/* TEXT */
 
 h1 {
     font-family: Circular;
@@ -26,7 +29,6 @@ h1 {
 h2 {
     font-family: Circular;
     letter-spacing: 0.6rem;
-    /* padding-top:3rem; */
     padding-left:0.5rem;
 }
 
@@ -55,7 +57,7 @@ p{
     letter-spacing: 0.1rem;
 
 }
-
+/* IMAGE CSS */
 img:hover {
     opacity:0.5;
 }
@@ -117,13 +119,6 @@ img {
 }
 
 .lumen_projectDesc {
-    /* line-height:0.2rem;
-    text-align:right;
-    font-size:0.75rem;
-    color:white;
-    position:absolute;
-    left:65.5%;
-    top:69%; */
 
     line-height:0.2rem;
     display: block;
@@ -135,6 +130,8 @@ img {
     right:7%;
 }
 
+
+/* @MEDIA */
 
 @media (max-width:1300px) {
 

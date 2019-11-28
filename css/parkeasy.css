@@ -25,6 +25,7 @@
     z-index:-1;
 }
 
+/* LUMEN CSS */
 .lumen_description {
     text-align:center;
     z-index:0;
@@ -219,7 +220,7 @@ li {
 }
 
 
-/* parkeasy FEATURES */
+/* PARKEASY FEATURES */
 
 .feature_1 {
     padding-top:4rem;
@@ -427,20 +428,7 @@ max-width:80%;
     .left_desc p{
         max-width:100%;
     }
-/*
-    .right_vid {
-        margin-top: -10em;
-        margin-bottom:-8em;
 
-    }
-
-    .left_vid {
-      margin-top: -10em;
-      margin-bottom:-5em;
-      margin-left: -13em;
-
-    }
- */
 
     .left_desc{
         padding-left:12rem;

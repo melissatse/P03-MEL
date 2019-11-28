@@ -1,8 +1,11 @@
+/* BG COLOUR AND BASIC CSS */
 
 body{
   background-color: black;
   color:white;
 }
+
+/* NAV BAR DIMENSIONS */
 .navbar {
     padding:2rem;
     font-size:1rem;
@@ -15,6 +18,7 @@ body{
     color:rgb(255, 195, 66);
 }
 
+/* BIO TEXT */
 .bio{
     width:50%;
     display:block;
@@ -49,7 +53,7 @@ img{
     padding-top: 0.8rem;
 }
 
-/* text */
+/* GENERAL TEXT */
 
 h1 {
     font-family: Circular;
@@ -77,6 +81,7 @@ a{
     transition-duration: 0.5s;
 }
 
+/* HOVER TO WHITE  */
 a:hover {
     color:white;
 }
@@ -98,6 +103,7 @@ color:rgb(255, 195, 66);
 .about{
   text-align: center;
 }
+
 /* HEADINGS */
 .Headings {
     padding-bottom:3rem;
@@ -126,6 +132,7 @@ color:rgb(255, 195, 66);
     padding-right:0rem;
 }
 
+/* MEDIA QUERIES */
 
 @media (max-width:1200px) {
 
