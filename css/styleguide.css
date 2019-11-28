@@ -110,6 +110,7 @@ code {
   width: 50px;
   background-color: white;
   margin-right: 5rem;
+	min-width: 50px;
 }
 
 .colour1 p {
@@ -118,6 +119,8 @@ code {
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
   margin-left: -0.7rem;
+	min-width: 50px;
+
 }
 
 .colour2 {
@@ -127,6 +130,8 @@ code {
   /* BLUE */
   background-color: #5abedd;
   margin-right: 5rem;
+	min-width: 50px;
+
 }
 
 .colour2 p {
@@ -134,6 +139,8 @@ code {
   font-family: CircularRegular;
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
+	min-width: 50px;
+
 }
 
 .colour3 {
@@ -143,6 +150,8 @@ code {
   /* YELLOW */
   background-color: #f6c55b;
   margin-right: 5rem;
+	min-width: 50px;
+
 }
 
 .colour3 p {
@@ -150,6 +159,8 @@ code {
   font-family: CircularRegular;
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
+	min-width: 50px;
+
 }
 
 .swatch_labels p {
